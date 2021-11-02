@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    #top,
+    #bottom, #mid {
+        position: fixed;
+        left: 0;
+        right: 0;
+    }
+    #mid {
+        top:80px;
+        bottom: 200px;
+        background: #093545;
+    }
+    #top {
+        top: 0;
+        height: 80px;
+        position: fixed;
+        background-image: url("Images/bodybackground.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    ul {
+      text-align: center;
+      width: 20%;
+      margin: auto;
+      list-style-type: none;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      opacity: 50%;
+    }
+    a{
+        font-size:25px;
+    }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <ul>
+          <li><a href="case1a.html">Case1</a></li>
+          <li><a href="case2a.html">Case2</a></li>
+          <li><a href="https://chrislim1234.github.io/">Back</a></li>
+        </ul>
+    </div>
+<div class="imgbox">
+    <img class="center-fit" src='images/a.png'>
+    <img class="center-fit" src='images/b.png'>
+    <img class="center-fit" src='images/c.png'>
+    <img class="center-fit" src='images/d.png'>
+    <img class="center-fit" src='images/e.png'>
+    <img class="center-fit" src='images/f.png'>
+    <img class="center-fit" src='images/g.png'>
+    <img class="center-fit" src='images/h.png'>
+    <img class="center-fit" src='images/i.png'>
+</div>
+</body>
+</html>
